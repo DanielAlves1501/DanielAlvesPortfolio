@@ -16,7 +16,8 @@ const Hero = () => {
           <div className="flex flex-wrap justify-center items-baseline mb-10 sm:justify-start ">
             <CustomBtn text="Contact Me" extraStyles="mt-5 lg:py-4 lg:px-7" />
             <a
-              href="#"
+              href="/DanielAlvesCV.pdf"
+              target="_blank"
               className="text-secondary ml-5 text-[14px] hover:text-gray transition-colors duration-300"
             >
               Download my CV
