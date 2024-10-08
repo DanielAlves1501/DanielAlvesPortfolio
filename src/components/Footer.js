@@ -1,7 +1,16 @@
-import React from "react";
+import Social from "./Social";
 
 const Footer = () => {
-  return <div>Footer</div>;
+  return (
+    <footer className="container pt-[100px] pb-5 flex justify-between items-center">
+      <p className="description-text">
+        {" "}
+        &copy; {new Date().getFullYear()} Daniel Alves. All rights reserved.
+      </p>
+
+      <Social />
+    </footer>
+  );
 };
 
 export default Footer;
