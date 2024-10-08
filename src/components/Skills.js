@@ -52,7 +52,7 @@ const Skills = () => {
     <section className="container pt-[100px]" id="skills">
       <h2 className="title text-center">
         <span className="text-secondary">Skills</span> and{" "}
-        <span className="text-secondary">Technologies</span> I have used <br />{" "}
+        <span className="text-secondary">Technologies</span> I have used
         and worked with
       </h2>
       {skillsList.map((skill, index) => (
