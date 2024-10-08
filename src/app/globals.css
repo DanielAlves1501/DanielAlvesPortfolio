@@ -2,26 +2,57 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+/* General Styles */
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply font-openSans text-[16px];
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+h1,
+h2,
+h3,
+h4 {
+  @apply font-inter;
 }
+
+.container {
+  @apply max-w-[1040px] mx-auto w-[95%];
+}
+
+.title {
+  @apply text-[24px] font-bold mb-10 sm:text-[28px] lg:text-[34px];
+}
+
+.subtitle {
+  @apply text-[18px] font-semibold text-secondary lg:text-[18px];
+}
+
+.body-text {
+  @apply font-light;
+}
+
+.description-text {
+  @apply font-light text-[14px];
+}
+
+/* Hero  */
+
+.hero-title {
+  @apply text-[38px] font-medium sm:text-[42px] md:text-[52px] lg:text-[58px];
+}
+
+.hero-pic {
+  @apply w-[150px] h-[150px] relative mx-auto sm:w-[220px] sm:h-[220px] sm:mx-0 md:w-[260px] md:h-[260px] lg:w-[350px] lg:h-[350px];
+}
+
+/* About Me Section */
+
+.about-pic-container {
+  @apply w-[75%] h-[350px] max-w-[400px] relative mx-auto mb-5 xs:h-[450px] sm:mx-0 sm:w-[47%] sm:h-[500px] md:h-[500px];
+}
+
+.about-pic {
+  @apply rounded-b-[10px] rounded-tl-[10px] rounded-tr-[100px] object-cover;
+}
+
+/* Skills Section */
