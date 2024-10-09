@@ -29,6 +29,7 @@ const Hero = () => {
             src="/assets/profilePicColor.webp"
             fill
             className="rounded-full object-cover"
+            priority
           />
         </div>
       </div>
