@@ -20,7 +20,7 @@ const Hero = () => {
               target="_blank"
               className="text-secondary ml-5 text-[14px] hover:text-gray transition-colors duration-300"
             >
-              Download CV
+              Download my CV
             </a>
           </div>
         </div>
