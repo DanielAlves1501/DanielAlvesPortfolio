@@ -5,7 +5,7 @@ const ProjectCard = ({ imgPath, projectName, projectLink }) => {
   return (
     <article className="w-[300px] ">
       <div className="w-[300px] h-[300px] relative mb-5">
-        <Link href={projectLink} target="_blank">
+        <Link href={projectLink} target="_blank ">
           <Image
             src={imgPath}
             className="rounded-xl object-cover transition-all duration-300  hover:scale-[1.1]"

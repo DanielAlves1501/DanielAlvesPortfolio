@@ -14,7 +14,7 @@ const Hero = () => {
             Front End Developer
           </strong>
           <div className="flex flex-wrap justify-center items-baseline mb-10 sm:justify-start ">
-            <CustomBtn text="Contact Me" extraStyles="mt-5 lg:py-4 lg:px-7" />
+            <CustomBtn text="Contact Me" extraStyles="mt-5 " />
             <a
               href="/DanielAlvesCV.pdf"
               target="_blank"
@@ -29,7 +29,8 @@ const Hero = () => {
             src="/assets/profilePicColor.webp"
             fill
             className="rounded-full object-cover"
-            priority
+            sizes="150px ,(min-width: 640px) 220px, (min-width: 768px) 260px, (min-width: 1024px) 350px"
+            alt="Profile Picture"
           />
         </div>
       </div>
