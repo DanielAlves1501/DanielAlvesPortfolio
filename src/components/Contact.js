@@ -4,7 +4,7 @@ const Contact = () => {
     "use server";
 
     try {
-      const req = await fetch("http://localhost:3000/api/email", {
+      const req = await fetch("http://147.79.107.190:3001/api/email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
