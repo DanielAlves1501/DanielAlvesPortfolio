@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 const Projects = () => {
   const projects = [
     {
-      projectName: "La Guacarena",
+      projectName: "La Guacareña",
       imgPath: "/assets/project1.webp",
       projectLink: "https://laguacarena.com",
     },

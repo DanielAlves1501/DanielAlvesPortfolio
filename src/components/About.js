@@ -29,7 +29,7 @@ const About = () => {
           </article>
 
           <article className="mt-5">
-            <h3 className="subtitle">La Guacarena</h3>
+            <h3 className="subtitle">La Guacareña</h3>
             <p className="description-text">
               UX/UI Designer | Front-end Developer | Menu Designer
             </p>
