@@ -55,4 +55,8 @@ h4 {
   @apply rounded-b-[10px] rounded-tl-[10px] rounded-tr-[100px] object-cover;
 }
 
-/* Skills Section */
+/* Contact Section */
+
+.basic-input {
+  @apply w-full rounded-xl p-3 mb-4 outline-none transition-all duration-300 border-transparent border-[3px] text-primary focus:border-secondary;
+}

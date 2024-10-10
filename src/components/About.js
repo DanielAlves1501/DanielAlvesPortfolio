@@ -7,7 +7,12 @@ const About = () => {
 
       <div className="items-center justify-between sm:flex md:items-start ">
         <div className="about-pic-container">
-          <Image src="/assets/aboutPicColor.webp" fill className="about-pic" />
+          <Image
+            src="/assets/aboutPicColor.webp"
+            fill
+            className="about-pic"
+            alt="Daniel Alves Picture"
+          />
         </div>
 
         <div className="sm:w-[47%]">
