@@ -29,7 +29,7 @@ const Hero = () => {
             src="/assets/profilePicColor.webp"
             fill
             className="rounded-full object-cover"
-            sizes="150px ,(min-width: 640px) 220px, (min-width: 768px) 260px, (min-width: 1024px) 350px"
+            sizes="(max-width: 500px) 150px, (max-width: 640px) 220px, (max-width: 768px) 260px, 400px"
             alt="Profile Picture"
           />
         </div>
